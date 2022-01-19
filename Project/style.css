@@ -2,8 +2,13 @@
 /* Seletores */
 body{
     margin: 0;
-    padding: 0;
-    background-image: linear-gradient(to top,);
+    padding: 10px;
+    background-image: linear-gradient(to top, green, black);
+}
+h2{
+    color: green;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 abbr{
     text-decoration: none;
@@ -14,27 +19,45 @@ abbr:hover{
     cursor: context-menu;
 }
 ul{
-    list-style-type: none;
+    list-style-type: square;
+}
+li{
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 /* Classes */
 
+/* MAIN */
 .main{
     width: 500px;
     height: auto;
     background-color: beige;
     margin: auto;
-    margin-top: 10px;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 8px solid lightgreen;
+    border-radius: 10px;
 }
+
+/* TITTLE */
 .tittle{
     color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
     text-align: center;
 }
+.tittle > h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(7, 59, 7);
+}
+.tittle > h2{
+    margin-top: -25px;
+    font-size: 1.5em;
+    
+}
+
+/* IMG */
 .img{
     width: 200px;
     height: 200px;
@@ -42,19 +65,78 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    border: 5px solid green;
+    border: 10px solid green;
     margin: auto;
 }
-.about > h2{
-    color: green;
-    font-family: Arial, Helvetica, sans-serif;
+
+/* ABOUT */
+.about{
+    margin-bottom: 80px;
 }
 .about > p{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid green;
+    border: 3px solid green;
     box-sizing: border-box;
     padding: 5px;
     border-radius: 8px;
     text-align: justify;
+}
+
+/* SOFT SKILLS */
+.skills{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 80px;
+    color:green;
+}
+
+/* FOLLOW */
+.follow{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.follow > .links {
+    box-sizing: border-box;
+    padding: 5px;
+}
+.links{
+    text-align: center;
+}
+.link{
+    font-family: monospace;
+    text-decoration: none;
+    margin: 3px;
+    background-color: greenyellow;
+    padding: 8px 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* BOTÕES DE ESTILO */
+.facebook{
+    color: white;
+    background-color: rgb(0, 0, 255);
+    border-color: rgb(3, 3, 80);
+}
+.facebook:hover{
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+.github{
+    color: rgb(228, 228, 228);
+    background-color: rgb(255, 166, 0);
+    border-color: rgb(122, 90, 8);
+}
+.github:hover{
+    background-color: rgba(255, 166, 0, 0.8);
+}
+
+.email{
+    color: rgb(228, 228, 228);
+    background-color: rgb(255, 0, 0);
+    border-color: darkred;
+}
+.email:hover{
+    background-color: rgba(255, 0, 0, 0.8);
 }
