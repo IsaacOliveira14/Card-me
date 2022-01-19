@@ -1,0 +1,60 @@
+
+/* Seletores */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,);
+}
+abbr{
+    text-decoration: none;
+    color:orange;
+}
+abbr:hover{
+    color:green;
+    cursor: context-menu;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Classes */
+
+.main{
+    width: 500px;
+    height: auto;
+    background-color: beige;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.tittle{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-image: url("https://scontent-for1-1.xx.fbcdn.net/v/t1.6435-9/89865690_1219160264953965_5706901849978699776_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHkgR2V--0Rro1DIm-4MlfKsPvn7ZX3kKiw--ftlfeQqCL7DIBgl2AWjsVcMuhkCiJ25Cs7hk2tlyjC9HEdmd6X&_nc_ohc=3xd-uI2wNg0AX9Gcj9a&_nc_ht=scontent-for1-1.xx&oh=00_AT_10JNd_3qCSUO6higwrdPhX0myCjCD5lGS6ZhF08ALkQ&oe=620D771E");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin: auto;
+}
+.about > h2{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about > p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: justify;
+}

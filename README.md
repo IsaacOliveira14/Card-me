@@ -1,2 +1,2 @@
 # Card-me
- This card tell some about for me.
+Este repositório é um cartão de visitas em formato de página.
