@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN-CONTAINER */
+.main-container{
+    margin: auto;
+    max-width: 800px;
+    margin-top: 10px;
+    border: solid 1px green; 
+    padding: 10px;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.picture{
+    max-height: 200px;
+    border-radius: 50%;
+    border: 5px solid green;
+    outline: 2px solid black;
+}
+.information{
+    text-align: center;
+}
+.name{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.profission{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+.title-section{
+    text-align: center;
+}
+.about{
+    border: 1px solid green;
+    margin: auto;
+}
