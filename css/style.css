@@ -60,21 +60,27 @@ header{
 /* MAIN */
 section{
     margin-top: 15px;
+    border: 1px solid green;
 }
 .title-section{
     text-align: center;
     margin-bottom: 10px;
 }
 .about{
-    border: 1px solid green;
     padding: 20px;
     text-align: justify;
 }
 .skills{
-    border: 1px solid green;
     padding: 20px;
     text-align: center;
 }
+.contacts{
+    text-align: center;
+    padding: 20px;
+}
+/* CLASSES DE PERSONALIZAÇÃO */
+
+/* skills */
 .html{
     background: linear-gradient(to bottom, darkred, red); 
     color: white;
@@ -86,4 +92,18 @@ section{
 .js{
     background: linear-gradient(to bottom, orange, yellow);
     color: darkgreen;
+}
+
+/* contacts */
+.whats{
+    color: white;
+    background: linear-gradient(to bottom, rgb(0, 87, 0), rgb(0, 158, 0))
+}
+.insta{
+    color: white;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);;
+}
+.email{
+    color: white;
+    background: linear-gradient(to bottom, darkred, red);
 }
